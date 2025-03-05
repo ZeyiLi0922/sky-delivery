@@ -1,0 +1,21 @@
+sky:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    host: localhost
+    port: 3306
+    database: sky_take_out
+    username: root
+    password: lzy20003826
+  alioss:
+    endpoint: oss-cn-beijing.aliyuncs.com
+    access-key-id: LTAI5t7DxPzcxkAtX5bwkXwW
+    access-key-secret: XPlCXSeVHEx8eP7tGWap0OsLoCEJxs
+    bucket-name: sky-delivery123
+  redis:
+    host: localhost
+    port: 6379
+    password:
+    database: 0
+  wechat:
+    appid: wx02b20fb59485dd18
+    secret: 6a00cca350938e28215aee808a27e556
